@@ -1,0 +1,9 @@
+.header {
+    position: relative;
+    height: 4rem; /* h-16 in Tailwind CSS is equivalent to 4rem */
+    margin-left: auto;
+    margin-right: auto; /* mx-auto */
+    transition-duration: 200ms;
+    background: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0));
+
+  }
