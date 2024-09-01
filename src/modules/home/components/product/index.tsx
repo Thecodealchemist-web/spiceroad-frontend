@@ -75,7 +75,7 @@ export default function ProductSec() {
                         {Object.keys(pricing).map(size => (
                             <Button
                                 key={size}
-                                variant={packSize === size ? "outline" : "primary"}
+                                variant={packSize === size ? "outline" : "default"}
                                 onClick={() => handlePackSizeChange(size as PackSize)}
                             >
                                 {size}
@@ -87,7 +87,7 @@ export default function ProductSec() {
                     {(["حبة صغير", "حبة كبير"] as PurchaseType[]).map(type => (
                         <Button
                             key={type}
-                            variant={purchaseType === type ? "outline" : "primary"}
+                            variant={purchaseType === type ? "outline" : "default"}
                             onClick={() => handlePurchaseTypeChange(type)}
                         >
                             {type}
